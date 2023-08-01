@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Produk</title>
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    {% include 'menu.html' %}
+    <div class="container mt-5">
+        <h1>Halaman Produk</h1>
+        <p>Ini adalah halaman untuk mengelola produk.</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID Produk</th>
+                    <th>Nama Produk</th>
+                    <th>Harga</th>
+                    <th>Deskripsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for product in products %}
+                <tr>
+                    <td>{{ product[0] }}</td>
+                    <td>{{ product[1] }}</td>
+                    <td>{{ product[2] }}</td>
+                    <td>{{ product[3] }}</td>
+                    <td>{{ product[4] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Konsumen</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Import menu.html -->
+    {% include 'menu.html' %}
+    <div class="container">
+        <h1 class="mt-5">Data Konsumen</h1>
+        <table class="table mt-3">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NIK/KTP</th>
+                    <th>Nama</th>
+                    <th>Jenis Kelamin</th>
+                    <th>No. HP</th>
+                    <th>Email</th>
+                    <th>Alamat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tampilkan data konsumen dari database -->
+                {% for konsumen in data_konsumen %}
+                    <tr>
+                        <td>{{ konsumen[0] }}</td>
+                        <td>{{ konsumen[1] }}</td>
+                        <td>{{ konsumen[2] }}</td>
+                        <td>{{ konsumen[3] }}</td>
+                        <td>{{ konsumen[4] }}</td>
+                        <td>{{ konsumen[5] }}</td>
+                        <td>{{ konsumen[6] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

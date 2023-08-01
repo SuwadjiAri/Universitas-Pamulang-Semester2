@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2023-07-11T12:29:05.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="3PT-UxUhE0rTCJfFS3BI" version="21.6.1" type="device">
+  <diagram name="Page-1" id="zyxiw9FbqKM8YMbMxmFc">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-39" value="10 km" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-38" target="Vp7MOqGNCMfIOp8xSx-s-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-41" value="5 km" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-38" target="Vp7MOqGNCMfIOp8xSx-s-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-38" value="Apotik A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-43" value="12 km" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-40" target="Vp7MOqGNCMfIOp8xSx-s-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-40" value="Apotik B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-45" value="8 km" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-42" target="Vp7MOqGNCMfIOp8xSx-s-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-42" value="Apotik C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-47" value="15 km" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-44" target="Vp7MOqGNCMfIOp8xSx-s-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-44" value="Apotik D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-50" value="6 km" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-46" target="Vp7MOqGNCMfIOp8xSx-s-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-46" value="Apotik E" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-48" value="Apotik F" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-51" value="Apotik G" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

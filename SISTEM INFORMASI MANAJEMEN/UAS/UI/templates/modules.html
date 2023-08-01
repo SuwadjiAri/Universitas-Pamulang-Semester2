@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Modul</title>
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    {% include 'menu.html' %}
+    <div class="container mt-5">
+        <h1>Halaman Modul</h1>
+        <p>Ini adalah halaman untuk mengelola data modul.</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID Modul</th>
+                    <th>Nama Modul</th>
+                    <th>Deskripsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for module in modules %}
+                <tr>
+                    <td>{{ module[0] }}</td>
+                    <td>{{ module[1] }}</td>
+                    <td>{{ module[2] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

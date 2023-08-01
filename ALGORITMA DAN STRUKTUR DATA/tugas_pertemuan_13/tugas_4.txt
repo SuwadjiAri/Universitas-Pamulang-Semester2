@@ -1,0 +1,49 @@
+[START]
+ |
+ V
+[Inisialisasi antrian]
+[Inisialisasi indeks_awal = 0, indeks_akhir = -1]
+ |
+ V
+[Loop]
+ |
+ V
+[Pilihan Menu] --> [Pilihan 1: Enqueue]
+               --> [Pilihan 2: Dequeue]
+               --> [Pilihan 3: Display]
+               --> [Pilihan 4: Exit]
+ |
+ V
+[Decision] --> [Jika pilihan = 1]
+            --> [Jika pilihan = 2]
+            --> [Jika pilihan = 3]
+            --> [Jika pilihan = 4]
+ |
+ V
+[Enqueue] --> [Input Data] --> [Tambahkan Data ke Antrian]
+ |
+ V
+[Dequeue] --> [Hapus Data dari Antrian]
+ |
+ V
+[Display] --> [Tampilkan Antrian]
+ |
+ V
+[Loop]
+ |
+ V
+[END]
+
+Penjelasan:
+
+Program dimulai dengan [START].
+Dilakukan inisialisasi antrian, indeks_awal, dan indeks_akhir.
+Program memasuki [Loop] yang berisi pilihan menu operasi.
+Pengguna memilih operasi yang ingin dilakukan pada antrian.
+Pilihan menu diteruskan ke [Decision] yang akan menentukan jalur berdasarkan pilihan.
+Jika pilihan adalah 1 ([Enqueue]), pengguna diminta memasukkan data melalui [Input Data] dan kemudian data ditambahkan ke antrian.
+Jika pilihan adalah 2 ([Dequeue]), data pertama dari antrian dihapus.
+Jika pilihan adalah 3 ([Display]), isi antrian ditampilkan.
+Setelah operasi selesai, program kembali ke [Loop] untuk meminta pengguna memilih operasi selanjutnya.
+Jika pilihan adalah 4, program berakhir di [END].
+Flowchart ini menggambarkan alur program yang terkait dengan operasi enqueue, dequeue, dan display pada antrian.

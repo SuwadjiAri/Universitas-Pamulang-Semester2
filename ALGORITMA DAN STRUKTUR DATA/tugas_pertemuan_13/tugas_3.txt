@@ -1,0 +1,43 @@
+[START]
+
+Inisialisasi antrian sebagai array kosong.
+Inisialisasi indeks_awal = 0 dan indeks_akhir = -1.
+
+Fungsi enqueue(data):
+    Jika indeks_akhir < kapasitas_antrian - 1, maka:
+        Tambahkan data ke antrian pada indeks_akhir + 1.
+        Tingkatkan nilai indeks_akhir.
+        Tampilkan pesan "Elemen <data> berhasil ditambahkan ke antrian."
+    Jika tidak, tampilkan pesan "Antrian penuh, tidak dapat menambahkan elemen."
+
+Fungsi dequeue():
+    Jika indeks_awal <= indeks_akhir, maka:
+        Simpan elemen yang akan dihapus dari antrian.
+        Geser elemen-elemen di antrian ke posisi sebelumnya.
+        Kurangi nilai indeks_akhir.
+        Tampilkan pesan "Elemen <elemen_yang_dihapus> dihapus dari antrian."
+    Jika tidak, tampilkan pesan "Antrian kosong, tidak ada elemen yang dihapus."
+
+Fungsi display():
+    Jika indeks_awal <= indeks_akhir, maka:
+        Untuk setiap indeks dari indeks_awal hingga indeks_akhir, lakukan:
+            Tampilkan elemen pada indeks tersebut.
+    Jika tidak, tampilkan pesan "Antrian kosong."
+
+Inisialisasi pilihan sebagai 0.
+
+Selama pilihan bukan 4, lakukan:
+    Tampilkan menu pilihan operasi enqueue, dequeue, atau display.
+    Terima input pilihan dari pengguna.
+    Jika pilihan adalah 1, panggil fungsi enqueue dengan meminta pengguna memasukkan data.
+    Jika pilihan adalah 2, panggil fungsi dequeue.
+    Jika pilihan adalah 3, panggil fungsi display.
+
+[END]
+
+
+Anda dapat mengimplementasikan pseudocode di atas dalam bahasa pemrograman yang Anda pilih, seperti Python, dengan menggantikan bagian-bagian yang berkaitan dengan antrian dengan kode yang sesuai.
+
+
+
+

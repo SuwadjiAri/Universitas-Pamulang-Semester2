@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Aplikasi</title>
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    {% include 'menu.html' %}
+    <div class="container mt-5">
+        <h1>Halaman Aplikasi</h1>
+        <p>Ini adalah halaman untuk mengelola data aplikasi.</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID Aplikasi</th>
+                    <th>Nama Aplikasi</th>
+                    <th>Jenis Aplikasi</th>
+                    <th>Deskripsi</th>
+                    <th>Tanggal Pengembangan</th>
+                    <th>Status Pengembangan</th>
+                    <th>Perusahaan</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for application in applications %}
+                <tr>
+                    <td>{{ application[0] }}</td>
+                    <td>{{ application[1] }}</td>
+                    <td>{{ application[2] }}</td>
+                    <td>{{ application[3] }}</td>
+                    <td>{{ application[4] }}</td>
+                    <td>{{ application[5] }}</td>
+                    <td>{{ application[6] }}</td>
+                    <td>{{ application[7] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

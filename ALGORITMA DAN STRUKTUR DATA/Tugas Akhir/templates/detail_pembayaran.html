@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Detail Pembayaran</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Import menu.html -->
+    {% include 'menu.html' %}
+    <div class="container">
+        <h1 class="mt-5">Data Detail Pembayaran</h1>
+        <table class="table mt-3">
+            <thead>
+                <tr>
+                    <th>Pembayaran</th>
+                    <th>Transaksi</th>
+                    <th>Qty</th>
+                    <th>Jumlah</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tampilkan data detail pembayaran dari database -->
+                {% for detail_pembayaran in data_detail_pembayaran %}
+                    <tr>
+                        <td>{{ detail_pembayaran[0] }}</td>
+                        <td>{{ detail_pembayaran[1] }}</td>
+                        <td>{{ detail_pembayaran[2] }}</td>
+                        <td>{{ detail_pembayaran[3] }}</td>
+                        <td>{{ detail_pembayaran[4] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

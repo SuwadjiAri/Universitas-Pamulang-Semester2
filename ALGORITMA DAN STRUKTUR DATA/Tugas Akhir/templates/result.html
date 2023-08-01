@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Mobil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Import menu.html -->
+    {% include 'menu.html' %}
+    <div class="container">
+        <h1>Daftar Mobil</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nama</th>
+                    <th>Tahun</th>
+                    <th>Harga</th>
+                    <th>Merk</th>
+                    <th>Jenis</th>
+                    <th>Nopol</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for mobil in mobils %}
+                <tr>
+                    <td>{{ mobil[0] }}</td>
+                    <td>{{ mobil[1] }}</td>
+                    <td>{{ mobil[2] }}</td>
+                    <td>{{ mobil[3] }}</td>
+                    <td>{{ mobil[4] }}</td>
+                    <td>{{ mobil[5] }}</td>
+                    <td>{{ mobil[6] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<mxfile host="Electron" modified="2023-07-11T12:26:02.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="t0kD1tVQV2FFcR02NeU6" version="21.6.1" type="device">
+  <diagram name="Page-1" id="zyxiw9FbqKM8YMbMxmFc">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-1" target="Vp7MOqGNCMfIOp8xSx-s-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.75" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="188.75" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-27" target="Vp7MOqGNCMfIOp8xSx-s-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.75" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-27" value="Masukkan Data" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="173.75" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-33" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-32" target="Vp7MOqGNCMfIOp8xSx-s-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.7449999999999" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-37" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.7449999999999" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="307" y="350" />
+              <mxPoint x="307" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-32" value="Validasi Data&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180.62" y="300" width="106.25" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vp7MOqGNCMfIOp8xSx-s-34" target="Vp7MOqGNCMfIOp8xSx-s-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.7449999999999" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-34" value="Proses Data&lt;br&gt;dan&lt;br&gt;Simpan Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173.75499999999988" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vp7MOqGNCMfIOp8xSx-s-36" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="191.56" y="560" width="84.39" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

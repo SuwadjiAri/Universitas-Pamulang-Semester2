@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Transaksi</title>
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    {% include 'menu.html' %}
+    <div class="container mt-5">
+        <h1>Halaman Transaksi</h1>
+        <p>Ini adalah halaman untuk mengelola data transaksi.</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID Transaksi</th>
+                    <th>Tanggal Transaksi</th>
+                    <th>ID Pelanggan</th>
+                    <th>Total Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for transaction in transactions %}
+                <tr>
+                    <td>{{ transaction[0] }}</td>
+                    <td>{{ transaction[1] }}</td>
+                    <td>{{ transaction[2] }}</td>
+                    <td>{{ transaction[3] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

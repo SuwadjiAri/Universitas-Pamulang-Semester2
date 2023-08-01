@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Perusahaan</title>
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    {% include 'menu.html' %}
+    <div class="container mt-5">
+        <h1>Halaman Perusahaan</h1>
+        <p>Ini adalah halaman untuk mengelola data perusahaan.</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID Perusahaan</th>
+                    <th>Nama Perusahaan</th>
+                    <th>Bidang Usaha</th>
+                    <th>Alamat</th>
+                    <th>Kontak</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for company in companies %}
+                <tr>
+                    <td>{{ company[0] }}</td>
+                    <td>{{ company[1] }}</td>
+                    <td>{{ company[2] }}</td>
+                    <td>{{ company[3] }}</td>
+                    <td>{{ company[4] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

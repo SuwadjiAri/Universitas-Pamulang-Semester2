@@ -1,0 +1,32 @@
+[START]
+
+1. Inisialisasi antrian sebagai array kosong.
+
+2. Fungsi enqueue(data):
+     - Jika antrian penuh, tampilkan pesan "Antrian penuh, tidak dapat menambahkan elemen."
+     - Jika antrian tidak penuh, tambahkan data ke akhir antrian dan tingkatkan indeks akhir.
+     - Tampilkan pesan "Elemen berhasil ditambahkan ke antrian."
+
+3. Fungsi dequeue():
+     - Jika antrian kosong, tampilkan pesan "Antrian kosong, tidak ada elemen yang dihapus."
+     - Jika antrian tidak kosong, hapus elemen pertama dari antrian dan geser elemen-elemen lain ke posisi sebelumnya.
+     - Kurangi indeks akhir.
+     - Tampilkan pesan "Elemen pertama dari antrian berhasil dihapus."
+
+4. Fungsi display():
+     - Jika antrian kosong, tampilkan pesan "Antrian kosong."
+     - Jika antrian tidak kosong, tampilkan semua elemen dalam antrian.
+
+5. Inisialisasi pilihan sebagai 0.
+
+6. Selama pilihan bukan 4, lakukan:
+     - Tampilkan menu pilihan operasi enqueue, dequeue, atau display.
+     - Terima input pilihan dari pengguna.
+     - Jika pilihan adalah 1, panggil fungsi enqueue dengan meminta pengguna memasukkan data.
+     - Jika pilihan adalah 2, panggil fungsi dequeue.
+     - Jika pilihan adalah 3, panggil fungsi display.
+
+[END]
+
+
+Pseudocode di atas memberikan struktur yang lebih rapih dalam bentuk kode yang dapat diimplementasikan dalam bahasa pemrograman tertentu. Anda dapat menggunakan pseudocode tersebut sebagai panduan untuk mengimplementasikan program perankingan siswa dalam bahasa pemrograman Python, menggantikan bagian yang berkaitan dengan antrian dengan kode yang sesuai.

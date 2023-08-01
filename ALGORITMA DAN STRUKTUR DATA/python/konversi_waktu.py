@@ -1,0 +1,12 @@
+jumlah_detik=input('masukkan jumlah detik: ')
+jumlah_detik = int(jumlah_detik)
+jam = int(jumlah_detik / 3600)
+sisa = int(jumlah_detik % 3600)
+menit = int(sisa / 60)
+detik = int(sisa % 60)
+
+print("sisa: ", sisa)
+print("======jam, menit, detik======")
+print("jam: ", jam)
+print("menit: ", menit)
+print("detik: ", detik)

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Jabatan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Import menu.html -->
+    {% include 'menu.html' %}
+    <div class="container">
+        <h1 class="mt-5">Data Jabatan</h1>
+        <table class="table mt-3">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nama</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tampilkan data jabatan dari database -->
+                {% for jabatan in data_jabatan %}
+                    <tr>
+                        <td>{{ jabatan[0] }}</td>
+                        <td>{{ jabatan[1] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Pelanggan</title>
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    {% include 'menu.html' %}
+    <div class="container mt-5">
+        <h1>Halaman Pelanggan</h1>
+        <p>Ini adalah halaman untuk mengelola data pelanggan.</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID Pelanggan</th>
+                    <th>Nama Pelanggan</th>
+                    <th>Alamat</th>
+                    <th>Kontak</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for customer in customers %}
+                <tr>
+                    <td>{{ customer[0] }}</td>
+                    <td>{{ customer[1] }}</td>
+                    <td>{{ customer[2] }}</td>
+                    <td>{{ customer[3] }}</td>
+                    <td>{{ customer[4] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

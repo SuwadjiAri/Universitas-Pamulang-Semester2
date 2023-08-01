@@ -1,0 +1,80 @@
+[START]
+
+Inisialisasi antrian sebagai array kosong.
+Inisialisasi indeks_awal = 0 dan indeks_akhir = -1.
+
+Buat blok fungsi enqueue(data):
+   - Jika indeks_akhir < kapasitas_antrian - 1, maka:
+       - Tambahkan data ke antrian pada indeks_akhir + 1.
+       - Tingkatkan nilai indeks_akhir.
+       - Tampilkan pesan "Elemen <data> berhasil ditambahkan ke antrian."
+     Jika tidak, tampilkan pesan "Antrian penuh, tidak dapat menambahkan elemen."
+
+Buat blok fungsi dequeue():
+   - Jika indeks_awal <= indeks_akhir, maka:
+       - Simpan elemen yang akan dihapus dari antrian.
+       - Geser elemen-elemen di antrian ke posisi sebelumnya.
+       - Kurangi nilai indeks_akhir.
+       - Tampilkan pesan "Elemen <elemen_yang_dihapus> dihapus dari antrian."
+     Jika tidak, tampilkan pesan "Antrian kosong, tidak ada elemen yang dihapus."
+
+Buat blok fungsi display():
+   - Jika indeks_awal <= indeks_akhir, maka:
+       - Untuk setiap indeks dari indeks_awal hingga indeks_akhir, lakukan:
+           - Tampilkan elemen pada indeks tersebut.
+   - Jika tidak, tampilkan pesan "Antrian kosong."
+
+Inisialisasi pilihan sebagai 0.
+
+Selama pilihan bukan 4, lakukan:
+   - Tampilkan menu pilihan operasi enqueue, dequeue, display, atau exit.
+   - Terima input pilihan dari pengguna.
+
+   Jika pilihan adalah 1, panggil fungsi enqueue:
+      - Terima input data dari pengguna.
+      - Jalankan fungsi enqueue dengan data sebagai parameter.
+
+   Jika pilihan adalah 2, panggil fungsi dequeue:
+      - Jalankan fungsi dequeue.
+
+   Jika pilihan adalah 3, panggil fungsi display:
+      - Jalankan fungsi display.
+
+   Jika pilihan adalah 4, keluar dari loop dan program selesai.
+
+[END]
+
+
+ Berikut adalah penjelasan dari setiap bagian algoritma tersebut:
+
+Inisialisasi antrian sebagai array kosong: Langkah ini membuat antrian awal yang masih kosong dengan membuat array tanpa elemen.
+
+Inisialisasi indeks_awal = 0 dan indeks_akhir = -1: Langkah ini menginisialisasi nilai indeks_awal dan indeks_akhir sebagai penanda posisi awal dan akhir antrian. Pada awalnya, antrian masih kosong sehingga indeks_awal diatur ke 0 dan indeks_akhir diatur ke -1.
+
+Fungsi enqueue(data): Fungsi ini digunakan untuk menambahkan elemen baru ke dalam antrian. Jika antrian belum penuh (indeks_akhir < kapasitas_antrian - 1), maka data ditambahkan pada indeks_akhir + 1, nilai indeks_akhir ditingkatkan, dan pesan sukses ditampilkan. Jika antrian penuh, maka pesan antrian penuh ditampilkan.
+
+Fungsi dequeue(): Fungsi ini digunakan untuk menghapus elemen dari antrian. Jika antrian tidak kosong (indeks_awal <= indeks_akhir), maka elemen yang akan dihapus disimpan, elemen-elemen di antrian digeser ke posisi sebelumnya, nilai indeks_akhir dikurangi, dan pesan elemen yang dihapus ditampilkan. Jika antrian kosong, maka pesan antrian kosong ditampilkan.
+
+Fungsi display(): Fungsi ini digunakan untuk menampilkan elemen-elemen yang ada dalam antrian. Jika antrian tidak kosong (indeks_awal <= indeks_akhir), maka untuk setiap indeks dari indeks_awal hingga indeks_akhir, elemen pada indeks tersebut ditampilkan. Jika antrian kosong, maka pesan antrian kosong ditampilkan.
+
+Inisialisasi pilihan sebagai 0: Langkah ini menginisialisasi variabel pilihan dengan nilai 0.
+
+Selama pilihan bukan 4, lakukan:
+
+Menampilkan menu pilihan operasi enqueue, dequeue, display, atau exit.
+
+Menerima input pilihan dari pengguna.
+
+Jika pilihan adalah 1, panggil fungsi enqueue:
+
+Menerima input data dari pengguna.
+Menjalankan fungsi enqueue dengan data sebagai parameter.
+Jika pilihan adalah 2, panggil fungsi dequeue:
+
+Menjalankan fungsi dequeue.
+Jika pilihan adalah 3, panggil fungsi display:
+
+Menjalankan fungsi display.
+Jika pilihan adalah 4, keluar dari loop dan program selesai.
+
+Flowchart dan pseudocode tersebut memberikan struktur algoritma yang jelas untuk mengimplementasikan operasi enqueue, dequeue, dan display pada antrian. Anda dapat menerjemahkan algoritma tersebut ke dalam bahasa pemrograman pilihan Anda untuk membuat program antrian yang berfungsi.

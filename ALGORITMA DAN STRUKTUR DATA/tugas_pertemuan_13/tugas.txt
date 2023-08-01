@@ -1,0 +1,31 @@
+[START]
+
+1. Membuat antrian kosong
+
+2. Untuk menambahkan elemen ke antrian (enqueue):
+   a. Input data yang akan ditambahkan
+   b. Jika antrian penuh, tampilkan pesan "Antrian penuh, tidak bisa menambahkan elemen"
+   c. Jika antrian kosong, tambahkan elemen sebagai elemen pertama dan terakhir dalam antrian
+   d. Jika antrian tidak kosong, tambahkan elemen di ujung belakang antrian
+   e. Tampilkan pesan "Elemen berhasil ditambahkan ke antrian"
+
+3. Untuk menghapus elemen dari antrian (dequeue):
+   a. Jika antrian kosong, tampilkan pesan "Antrian kosong, tidak ada elemen yang dihapus"
+   b. Jika antrian tidak kosong, hapus elemen pertama dari antrian
+   c. Tampilkan pesan "Elemen pertama dari antrian berhasil dihapus"
+
+4. Tampilkan antrian saat ini
+
+5. Mengulangi langkah 2 dan 3 sesuai kebutuhan
+
+[END]
+
+
+Penjelasan sesuai dengan flowchart di atas:
+
+Langkah 1: Langkah awal adalah membuat antrian kosong.
+Langkah 2: Untuk menambahkan elemen ke antrian, pengguna harus memasukkan data yang akan ditambahkan. Jika antrian penuh (misalnya batasan ukuran antrian telah tercapai), maka akan ditampilkan pesan bahwa antrian penuh dan tidak dapat menambahkan elemen. Jika antrian kosong, elemen tersebut akan menjadi elemen pertama dan terakhir dalam antrian. Jika antrian tidak kosong, elemen akan ditambahkan di ujung belakang antrian.
+Langkah 3: Untuk menghapus elemen dari antrian, jika antrian kosong maka akan ditampilkan pesan bahwa antrian kosong dan tidak ada elemen yang dihapus. Jika antrian tidak kosong, elemen pertama dari antrian akan dihapus.
+Langkah 4: Setelah menambahkan atau menghapus elemen, antrian saat ini akan ditampilkan.
+Langkah 5: Algoritma akan kembali ke langkah 2 dan 3 sesuai kebutuhan, tergantung pada operasi yang ingin dilakukan (menambahkan atau menghapus elemen).
+Flowchart tersebut memberikan struktur dan urutan langkah-langkah untuk menambahkan dan menghapus elemen dari antrian. Dengan mengikuti algoritma tersebut, pengguna dapat secara sistematis memanipulasi antrian sesuai kebutuhan.
